@@ -1,9 +1,13 @@
 import React from "react";
+import * as $ from "jquery";
+import "slick-carousel";
 
 // IMPORT ICONS FROM REACT ICONS
 import { FcSettings } from "react-icons/fc";
 // CUSTOM CSS
 import "./App.css";
+import "../node_modules/slick-carousel/slick/slick.css";
+
 import brain from "./Images/carousel-brain.png";
 import heart from "./Images/carousel-heart.png";
 import orthopaedic from "./Images/carousel-orthopaedic.png";
@@ -24,6 +28,66 @@ import ecare_transp from "./Images/ecare-transparent.png";
 import PublicNav from "./Components/Partials/PublicNav/PublicNav";
 import HomePageHeader from "./Components/Partials/HomePageHeader/HomePageHeader";
 
+$(document).ready(function () {
+  $(".sections-carousel").slick({
+    dots: false,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    prevArrow: `
+    <button type="button" class="slick-prev d-inline-block align-middle">
+      <svg width="17" height="29" viewBox="0 0 17 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16.9907 3.98125L6.49489 14.5L16.9907 25.0187L13.7595 28.25L0.00947189 14.5L13.7595 0.75L16.9907 3.98125Z" fill="#002689"/>
+      </svg>
+    </button>`,
+    nextArrow: `
+    <button type="button" class="slick-next d-inline-block align-middle">
+      <svg width="17" height="29" viewBox="0 0 17 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0.00927734 25.0188L10.5051 14.5L0.00927734 3.98125L3.24053 0.75L16.9905 14.5L3.24053 28.25L0.00927734 25.0188Z" fill="#002689"/>
+      </svg>
+    </button>`,
+    responsive: [
+      {
+        breakpoint: 1441,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 575.68,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 426,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+    ],
+  });
+});
+
 function App() {
   return (
     <div>
@@ -37,96 +101,58 @@ function App() {
             short of the best in healthcare
           </p>
         </header>
-        <div
-          id="carouselExampleControls"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <div className="carousel-inner row w-10 mx-auto">
-            <div className="carousel-item col-md-4 active">
-              <img
-                src={heart}
-                className="d-block mx-auto img-fluid"
-                alt="heart"
-              />
-              <p className="text-center lead text-primary font-weight-bold my-3">
-                Heart
-              </p>
-            </div>
-            <div className="carousel-item col-md-4">
-              <img
-                src={brain}
-                className="d-block mx-auto img-fluid"
-                alt="brain"
-              />
-              <p className="text-center lead text-primary font-weight-bold my-3">
-                Brain
-              </p>
-            </div>
-            <div className="carousel-item col-md-4">
-              <img
-                src={orthopaedic}
-                className="d-block mx-auto img-fluid"
-                alt="Bones"
-              />
-              <p className="text-center lead text-primary font-weight-bold my-3">
-                Orthopaedics
-              </p>
-            </div>
-            <div className="carousel-item col-md-4">
-              <img
-                src={pharm}
-                className="d-block mx-auto img-fluid"
-                alt="drugs"
-              />
-              <p className="text-center lead text-primary font-weight-bold my-3">
-                Critical
-              </p>
-            </div>
-            <div className="carousel-item col-md-4">
-              <img
-                src={robotics}
-                className="d-block mx-auto img-fluid"
-                alt="robotics"
-              />
-              <p className="text-center lead text-primary font-weight-bold my-3">
-                Robotics
-              </p>
-            </div>
+        <div className="sections-carousel d-flex justify-content-around py-3">
+          <div className="d-flex flex-column align-items-center">
+            <img src={heart} alt="" />
+            <p>Heart</p>
           </div>
-          <a
-            className="carousel-control-prev"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="prev"
-          >
-            <span
-              className="prj-carousel-control-prev-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Previous</span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#carouselExampleControls"
-            role="button"
-            data-slide="next"
-          >
-            <span
-              className="prj-carousel-control-next-icon"
-              aria-hidden="true"
-            ></span>
-            <span className="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-      <div className="container-fluid py-5">
-        <div className="row row-cols-1 row-cols-md-2">
-          <div className="col">Column</div>
-          <div className="col">Column</div>
+          <div className="d-flex flex-column align-items-center">
+            <img src={brain} alt="" />
+            <p>Neuro</p>
+          </div>
+          <div className="d-flex flex-column align-items-center">
+            <img src={orthopaedic} alt="" />
+            <p>Orthopaedics</p>
+          </div>
+          <div className="d-flex flex-column align-items-center">
+            <img src={pharm} alt="" />
+            <p>Critical</p>
+          </div>
+          <div className="d-flex flex-column align-items-center">
+            <img src={robotics} alt="" />
+            <p>Robotics</p>
+          </div>
         </div>
       </div>
       <div className="container-fluid py-2">
+        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 bg-info">
+          <div className="col d-flex flex-column align-items-center justify-content-center py-4">
+            <h2 className="text-white">500+</h2>
+            <p className="lead font-weight-bold text-white text-center">
+              Satisfied patients
+            </p>
+          </div>
+          <div className="col d-flex flex-column align-items-center justify-content-center py-4">
+            <h2 className="text-white">210+</h2>
+            <p className="lead font-weight-bold text-white text-center">
+              Doctors
+            </p>
+          </div>
+          <div className="col d-flex flex-column align-items-center justify-content-center py-4">
+            <h2 className="text-white">100+</h2>
+            <p className="lead font-weight-bold text-white text-center">
+              Nurses
+            </p>
+          </div>
+          <div className="col d-flex flex-column align-items-center justify-content-center py-4">
+            <h2 className="text-white">50+</h2>
+            <p className="lead font-weight-bold text-white text-center">
+              Care units
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid py-4">
         <div className="row row-cols-1">
           <h3 className="text-center text-danger">Register yourself</h3>
           <p className="text-center">
@@ -134,9 +160,9 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="container-fluid py-3">
+      <div className="container-fluid">
         <div className="row row-cols-1 row-cols-md-2">
-          <div className="col text-center py-3 py-md-0">
+          <div className="col text-center py-4">
             <h4>I am a Doctor/Nurse</h4>
             <p>
               Sign in as a doctor or a nurse so you can be able to post tips on
@@ -148,7 +174,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="col text-center py-3 py-md-0">
+          <div className="col text-center py-4">
             <h4>I am a Patient</h4>
             <p>
               Sign in as a candidate to be able to consult a doctor and get
@@ -266,7 +292,7 @@ function App() {
             <img className="img-fluid" src={healthtips01} alt="" />
           </div>
           <div className="col d-flex flex-column justify-content-center">
-            <h4 className="text-success">Dr. M. Michael</h4>
+            <h4 className="text-success py-2">Dr. M. Michael</h4>
             <p className="text-secondary">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
               vitae explicabo fugit commodi tempore, sit a aliquam dolor vel
@@ -286,7 +312,7 @@ function App() {
             <img className="img-fluid" src={healthtips02} alt="" />
           </div>
           <div className="col d-flex flex-column justify-content-center">
-            <h4 className="text-success text-md-right">Dr. M. Michael</h4>
+            <h4 className="text-success text-md-right py-2">Dr. M. Michael</h4>
             <p className="text-secondary text-md-right">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit
               vitae explicabo fugit commodi tempore, sit a aliquam dolor vel
@@ -299,28 +325,40 @@ function App() {
       <div className="bg-success py-5">
         <footer className="container">
           <div className="row">
-            <h3 className="col">E-Care</h3>
+            <h3 className="col text-white">E-Care</h3>
           </div>
           <div className="row row-cols-1 row-cols-md-3">
             <ul className="col list-unstyled">
-              <li className="font-weight-bold my-3">INFORMATION</li>
+              <li className="font-weight-bold my-3 text-white">INFORMATION</li>
               <li className="py-2">
-                <a href="#">About us</a>
+                <a href="#" className="text-white">
+                  About us
+                </a>
               </li>
               <li className="py-2">
-                <a href="#">Contact us</a>
+                <a href="#" className="text-white">
+                  Contact us
+                </a>
               </li>
               <li className="py-2">
-                <a href="#">Terms and Conditions</a>
+                <a href="#" className="text-white">
+                  Terms and Conditions
+                </a>
               </li>
             </ul>
             <ul className="col list-unstyled">
-              <li className="font-weight-bold my-3">RESPONSE LINKS</li>
-              <li className="py-2">
-                <a href="#">Careers</a>
+              <li className="font-weight-bold my-3 text-white">
+                RESPONSE LINKS
               </li>
               <li className="py-2">
-                <a href="#">Offers</a>
+                <a href="#" className="text-white">
+                  Careers
+                </a>
+              </li>
+              <li className="py-2">
+                <a href="#" className="text-white">
+                  Offers
+                </a>
               </li>
             </ul>
             <ul className="col list-unstyled">
@@ -363,7 +401,7 @@ function App() {
                   </li>
                 </ul>
               </li>
-              <li className="d-flex justify-content-around justify-content-md-start align-items-center">
+              <li className="mt-3 mt-lg-0 d-flex flex-column flex-lg-row justify-content-around justify-content-lg-start align-items-center">
                 <span className=" text-white d-inline-block">Powered by</span>
                 <img
                   src={ecare_transp}
@@ -384,16 +422,3 @@ function App() {
 }
 
 export default App;
-
-// {
-//   <header className="App-header">
-//   <FcSettings style={{ fontSize: "250px" }} className="App-logo" />
-//   <p className="text-dark display-4 font-weight-bold">
-//     Sorry, we're doing some work on the site......
-//   </p>
-//   <code>
-//     Thank you for being patient. We're working on the site and will be
-//     back shortly. We're preparing something exciting for you.
-//   </code>
-// </header>
-// }
