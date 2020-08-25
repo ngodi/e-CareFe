@@ -25,7 +25,7 @@ function App() {
         <code>Thank you for being patient. We're working on the site and will be back shortly. We're preparing something exciting for you.</code>
 
       </header>
-      {/* <Signin /> */}
+      <Signin />
     </div>
   );
 }
