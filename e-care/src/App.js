@@ -8,6 +8,8 @@ import './App.css';
 
 // IMPORTING NAVBAR
 import NavBav from './Components/Partials/NavBar/NavBar'
+import Signin from './Components/Partials/SignUp/MainSignIn'
+
 
 function App() {
   return (
@@ -23,6 +25,7 @@ function App() {
         <code>Thank you for being patient. We're working on the site and will be back shortly. We're preparing something exciting for you.</code>
 
       </header>
+      {/* <Signin /> */}
     </div>
   );
 }

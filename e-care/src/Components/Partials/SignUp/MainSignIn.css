@@ -1,0 +1,243 @@
+.modal-body {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.sign-left {
+    width: 100%;
+    position: relative;
+    height: 600px;
+    background-image: url(../../../Images/illustration.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.logo {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    height: 6rem;
+}
+.close {
+    right: -1.8rem;
+    top: -1.5rem;
+    position: absolute;
+    background-color: white !important;
+    border-radius:50%;
+    text-shadow: none !important;
+    z-index: 2000;
+    font-size: 2rem;
+    padding: 0.9rem 0.7rem !important;
+    line-height: 0.5 !important;
+}
+.close span {
+    margin-top: -4px !important;
+    display: block;
+    color: red;
+}
+.background {
+    height: 1rem;
+    top: 0.5rem;
+    right: 1.5rem;
+}
+h4 {
+    color: #007D85;
+    margin-bottom: 2rem !important;
+    margin-left: 30%;
+    text-shadow: 1px 1px 5px white;
+}
+form {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.tab1, .tab2 {
+    width: 50%;
+    padding: 0.4rem 1rem;
+} 
+.tab1 {
+    border-top-left-radius: 5px;
+    border: 1px solid;
+}
+.tab2 {
+    border-top-right-radius: 20px;
+}
+.form-box {
+    width: 40%;
+    padding-left: -2px;
+    padding-right: -2px;
+    padding-bottom: 3.5rem;
+    background: #FFFFFF;
+    border: 1px solid #3C70A4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.41);
+    border-radius: 30px;
+    margin-left: 45%;
+}
+.rwt__tab{
+    background-color: #e9e5e5;
+    border: 1px solid #3C70A4;
+}
+.rwt__tab[aria-selected="true"] {
+    background-color: #ffffff;
+}
+
+.rwt__tab[aria-selected="true"]::after{
+    display: none;
+}
+.rwt__tab[aria-selected="false"]:hover{
+    background-color: #e9e5e5;
+}
+
+.form-control {
+    border-radius: 20px !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    font-size: 0.8rem !important;
+}
+h6 {
+    margin: 0.5rem 0 !important;
+}
+.division::before,
+.division::after {
+    content: '';
+    width: 35%;
+    height: 1px;
+    background-color: #333;
+    display: inline-block;
+    margin-bottom: 3px;
+    
+}
+.division::before{
+    margin-right: 0.5rem;
+}
+.division::after{
+    margin-left: 0.5rem;
+}
+.radio-inputs {
+    border-radius: 20px ;
+    border: 1px solid #67738E;
+    text-align: left;
+    padding: 0.1rem 1.5rem;
+    position: relative;
+}
+label{
+    margin-bottom: 0 !important;
+    font-size: 0.8rem;
+    transform:translateY(-2px);
+    color: #878787;
+}
+.next-btn {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: #1089FF;
+    border-radius: 30px;
+    color: white;
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+}
+.sign-up p {
+    font-size: 0.6rem;
+    color: #5F6368;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 20px;
+}
+.background2 {
+    top: 0;
+    right: 0;
+    margin-top: -5px;
+    margin-right: -5px;
+    height: 2.3rem;
+}
+.box-title {
+    width: 108%;
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+    background: #C8DAEC;
+    border: 1px solid #3C70A4;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-left: -0.8rem;
+    margin-top: -0.6rem;
+    margin-bottom: 1rem;
+}
+.otp {
+    background: #E5E5E5 !important;
+    border: 1px solid #E5E5E5;
+}
+.cont {
+    display: inline;
+    position: relative;
+    padding-left: 35px;
+    
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .cont input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    background-position: center;
+    border-radius: 50%;
+  }
+  .check1{
+      background-image: url(../../../Images/circle3.png);
+  }
+  .check2 {
+    background-image: url(../../../Images/circle4.png);
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .cont:hover input ~ .checkmark {
+    background-color: #ccc;
+    box-shadow: 1px 1px 5px rgb(59, 59, 149);
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .cont input:checked ~ .checkmark {
+    background-color: #2196F3;
+    box-shadow: 1px 1px 5px rgb(59, 59, 149);
+  }
+  s
+.inbetween{
+    display: inline-block !important;
+    margin-right: 5px;
+
+}
+@media screen and (max-width: 967px) {
+    .form-box {
+        width: 60%;
+        padding-bottom: 3rem;
+        margin: 0 auto;
+    }
+    h4 {
+        margin: 0 auto;
+    }
+    
+    
+}
+@media screen and (max-width: 467px) {
+    .form-box {
+        width: 90%;
+        padding-bottom: 3rem;
+        margin: 0 auto;
+    }
+    
+}
