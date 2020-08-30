@@ -1,16 +1,20 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "../node_modules/bootstrap/dist/css/bootstrap.css";
-import * as $ from "jquery";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+// IMPORTING SLICK CSS
+import "../node_modules/slick-carousel/slick/slick.css";
+import { BrowserRouter as Router } from 'react-router-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Router>,
   document.getElementById("root")
 );
 
