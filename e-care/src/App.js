@@ -27,6 +27,7 @@ import ecare_transp from "./Images/ecare-transparent.png";
 // IMPORTING NAVBAR
 import PublicNav from "./Components/Partials/PublicNav/PublicNav";
 import HomePageHeader from "./Components/Partials/HomePageHeader/HomePageHeader";
+import Articles from "./Articles/Articles";
 
 $(document).ready(function () {
   $(".sections-carousel").slick({
@@ -188,7 +189,8 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="container py-3">
+      <Articles />
+     {/*  <div className="container py-3">
         <div className="row row-cols-1">
           <h3 className="text-center text-danger">Health Articles</h3>
           <p className="text-center">
@@ -277,8 +279,8 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container py-5">
+      </div>*/}
+   {/*    <div className="container py-5"> 
         <div className="row">
           <div className="col text-center">
             <h3 className="text-danger">Health Tips Videos</h3>
@@ -321,7 +323,7 @@ function App() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="bg-success py-5">
         <footer className="container">
           <div className="row">
