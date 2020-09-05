@@ -9,14 +9,6 @@ const healthTipsData = [
         "date": "March 26",
         "comments" : [],
         "description" : "A group of homogenous tasks related by similarity of functions. When performed by an employee"
-    },
-    {
-        "photo" : "../../Images/image-1.png",
-        "title" : "Get relevant informations about Hepatitis-C",
-        "date": "March 26",
-        "comments" : [],
-        "description" : "A group of homogenous tasks related by similarity of functions. When performed by an employee"
-
     }
 ]
 export default () => {

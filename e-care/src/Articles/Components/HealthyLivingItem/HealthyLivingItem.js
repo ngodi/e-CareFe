@@ -1,27 +1,26 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 
 import './HealthyLivingItem.css';
 
 export default ({photo, title, date, comments, description}) => {
     return (
-        <div className="healthy-living-item shadow">
-            <img src={photo} className="card-img-top" alt="..." />
-            <div className="card-body">
-                <h5 className="card-title text-primary m-0">
+        <div className="healthy-living-item">
+            <img src={photo} alt="..." width="50px"/>
+            <div>
+                <div>
                     {title}
-                </h5>
-                <small className="small font-weight-bold text-danger">
+                </div>
+                <small>
                     {`${date} | ${comments.length} Comments`}
                 </small>
-                <p className="card-text mt-3">
+                <div>
                     {`${description}...`}
-                </p>
-                <p className="card-text text-right">
-                    <a href="#" className="text-tertiary">
+                </div>
+                <div>
+                    <a href="#">
                         Continue reading
                     </a>
-                </p>
+                </div>
             </div>
     </div>
     )
