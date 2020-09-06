@@ -1,19 +1,15 @@
 import React from 'react';
 
+import './HealthyLivingList.css';
+
 import HealthyLivingItem from '../HealthyLivingItem/HealthyLivingItem';
 
-const healthTipsData = [
-    {
-        "photo" : "../../Images/image-1.png",
-        "title" : "Get relevant informations about Hepatitis-C",
-        "date": "March 26",
-        "comments" : [],
-        "description" : "A group of homogenous tasks related by similarity of functions. When performed by an employee"
-    }
-]
+import { healthTipsData } from './HealthTipsData';
+import Pagination from '../Pagination/Pagination';
+
 export default () => {
-    const healthTipsLising = healthTipsData.map((data, i) => (
-        <HealthyLivingItem key={i} {...data} />
+    const healthTipsLising = healthTipsData.map(({image, title, date, comments, description }, i) => (
+        <HealthyLivingItem key={i} image={image} title={title} date={date} comments={comments} description={description} />
     ))
     return (
         <div className="healthy-living-list">
@@ -27,6 +23,7 @@ export default () => {
                   healthTipsLising
               }
           </div>
+          <Pagination />
         </div>
     )
 }

@@ -2,7 +2,6 @@ import React from 'react';
 
 import './TopListed.css';
 
-import topListed from '../../Images/top-listed.png';
 export default () => {
     return (
         <section className="container row mx-auto">
@@ -12,7 +11,7 @@ export default () => {
         <div className="card mb-3 mx-auto" style={{maxWidth: "700px" }}>
             <div className="row no-gutters">
                 <div className="col-md-4">
-                    <img src={topListed} className="card-img" alt="honey image" style={{height: "100%"}} />
+                    <img src="./Images/top-listed.png" className="card-img" alt="honey image" style={{height: "100%"}} />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">

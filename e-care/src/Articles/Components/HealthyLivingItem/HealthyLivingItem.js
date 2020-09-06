@@ -2,25 +2,25 @@ import React from 'react';
 
 import './HealthyLivingItem.css';
 
-export default ({photo, title, date, comments, description}) => {
+export default ({image, title, date, comments, description}) => {
     return (
-        <div className="healthy-living-item">
-            <img src={photo} alt="..." width="50px"/>
-            <div>
-                <div>
+        <div className="healthy-living-item card mb-4 shadow">
+            <img src={`./Images/${image}`} alt="..." className="card-img-top" />
+            <div className="card-body">
+                <h5 className="card-title text-primary m-0">
                     {title}
-                </div>
-                <small>
+                </h5>
+                <small className="small font-weight-bold text-danger">
                     {`${date} | ${comments.length} Comments`}
                 </small>
-                <div>
+                <p className="card-text mt-3">
                     {`${description}...`}
-                </div>
-                <div>
+                </p>
+                <p className="card-text text-right">
                     <a href="#">
                         Continue reading
                     </a>
-                </div>
+                </p>
             </div>
     </div>
     )
