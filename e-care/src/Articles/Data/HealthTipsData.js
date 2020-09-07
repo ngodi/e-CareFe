@@ -42,3 +42,26 @@ export const healthTipsData = [
         description : "A group of homogenous tasks related by similarity of functions. When performed by an employee"
     }
 ]
+
+export const doctorsTips = [
+    {
+        image: "./Images/health-tips1.png",
+        drName: " Dr. M. Michael",
+        tips: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora obcaecati a ipsum vel earum cum fugit reprehenderit sapiente, ratione."
+    },
+    {
+        image: "./Images/health-tips2.png",
+        drName: " Dr. M. Michael",
+        tips: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora obcaecati a ipsum vel earum cum fugit reprehenderit sapiente, ratione."
+    },
+    {
+        image: "./Images/health-tips1.png",
+        drName: " Dr. M. Michael",
+        tips: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora obcaecati a ipsum vel earum cum fugit reprehenderit sapiente, ratione."
+    },
+       {
+        image: "./Images/health-tips1.png",
+        drName: " Dr. M. Michael",
+        tips: " Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus tempora obcaecati a ipsum vel earum cum fugit reprehenderit sapiente, ratione."
+    }
+]

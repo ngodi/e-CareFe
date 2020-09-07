@@ -4,7 +4,7 @@ import './HealthyLivingList.css';
 
 import HealthyLivingItem from '../HealthyLivingItem/HealthyLivingItem';
 
-import { healthTipsData } from './HealthTipsData';
+import { healthTipsData } from '../../Data/HealthTipsData';
 import Pagination from '../Pagination/Pagination';
 
 export default () => {
