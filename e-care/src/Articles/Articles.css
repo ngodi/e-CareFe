@@ -1,5 +1,4 @@
 .heading{
-    width: 356px;
     height: 47px;
     text-align: center !important;
     font-family: Rubik;
@@ -13,5 +12,5 @@
 }
 
 .articles{
-    margin: 0 15px;
+    width: 100%;
 }

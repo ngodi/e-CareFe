@@ -4,11 +4,11 @@ import './TopListed.css';
 
 export default () => {
     return (
-        <section className="container row mx-auto">
+        <section className="top-listed row">
         <h2 className="heading w-100 text-center text-secondary p-3 mt-5 mb-3">
             top listed articles
         </h2>
-        <div className="card mb-3 mx-auto" style={{maxWidth: "700px" }}>
+        <div className="card mb-3 mx-auto" style={{maxWidth: "100%"}}>
             <div className="row no-gutters">
                 <div className="col-md-4">
                     <img src="./Images/top-listed.png" className="card-img" alt="honey image" style={{height: "100%"}} />
@@ -19,7 +19,7 @@ export default () => {
                             30+ old time health remedies that actually works
                         </h5>
                         <p className="card-text text-muted">
-                            Honey to heal a wound, cherries for gout, cord-liver oil - belch! - to keep your eyes healthy... <br />
+                            Honey to heal a wound, cherries for gout, cord-liver oil - belch! - to keep your eyes healthy... 
                             Your grandmother and her doctors probably swore by these home remedies, and now science is catching up with them.
                         </p>
                         <p className="card-text text-right">

@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './DoctorsTips.css';
+
 import { doctorsTips } from '../../Data/HealthTipsData';
 import Pagination from '../Pagination/Pagination';
 
