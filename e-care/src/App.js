@@ -28,7 +28,7 @@ import ecare_transp from "./Images/ecare-transparent.png";
 import PublicNav from "./Components/Partials/PublicNav/PublicNav";
 import HomePageHeader from "./Components/Partials/HomePageHeader/HomePageHeader";
 import Articles from "./Articles/Articles";
-import Emergency from "./Emergency/Emergency";
+import Emergency from "./pages/Emergency/Emergency";
 
 
 function App() {

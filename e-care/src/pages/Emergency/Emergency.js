@@ -7,7 +7,7 @@ import CovidOverview from '../../Components/CovidOverview/CovidOverview';
 import NavigationPanel from '../../Components/Partials/NavigationPanel/NavigationPanel';
 import AvailableDoctors from '../../Components/AvailableDoctors/AvailableDoctors';
 import DoctorsTips from '../../Articles/Components/DoctorsTips/DoctorsTips';
-import Contactsection from '../../Components/ContactSection/Contactsection';
+import ContactSection from '../../Components/ContactSection/ContactSection';
 
 export default () => {
     return (
@@ -16,8 +16,8 @@ export default () => {
              <CovidOverview />
              <NavigationPanel />
              <AvailableDoctors />
-             <DoctorsTips heading="Emergency Health Tips"/>
              <ContactSection />
+             <DoctorsTips heading="Emergency Health Tips"/>
         </div>
     )
 }
