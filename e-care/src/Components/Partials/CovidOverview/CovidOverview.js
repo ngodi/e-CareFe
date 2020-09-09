@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './CovidOverview.css';
-import CustomButton from '../Partials/CustomButton/CustomButton';
+import CustomButton from '../CustomButton/CustomButton';
 
 export default () => {
     return (
