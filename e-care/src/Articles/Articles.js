@@ -15,7 +15,7 @@ export default () => {
           <TopListed />
           <HealthyLivingList />
           <HealthTipsVideos />
-          <DoctorsTips />
+          <DoctorsTips heading="health tips from doctors" pagination="true"/>
       </div>
     )
 }

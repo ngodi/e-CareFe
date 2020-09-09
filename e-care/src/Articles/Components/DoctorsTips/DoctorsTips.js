@@ -5,11 +5,11 @@ import './DoctorsTips.css';
 import { doctorsTips } from '../../Data/HealthTipsData';
 import Pagination from '../Pagination/Pagination';
 
-export default () => {
+export default ({ heading, pagination}) => {
     return (
         <div className="doctors-tips">
              <header className="h2 heading w-100 text-center text-secondary p-3 mt-5 mb-3">
-               health tips from doctors
+               {heading}
              </header>
              <div className="doctors-tips-body">
                  {
@@ -55,7 +55,7 @@ export default () => {
                  ))
                  }
              </div>
-             <Pagination />
+             {(pagination)? <Pagination /> : ""}
         </div>
     )
 }
