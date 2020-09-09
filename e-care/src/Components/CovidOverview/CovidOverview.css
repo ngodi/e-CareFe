@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     padding: 5px 10px;
     border-radius: 10px;
+    position: relative;
 }
 .corona-logo{
   position: relative;
@@ -42,4 +43,14 @@ color: skyblue;
 
 .deaths p{
     color: red;
+}
+
+.know-more{
+  background: #007D85;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  right: 10px;
+  bottom: -15px;
+  border-radius: 5px;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import './CovidOverview.css';
+import CustomButton from '../Partials/CustomButton/CustomButton';
 
 export default () => {
     return (
@@ -10,6 +11,7 @@ export default () => {
             <div className="active-cases">ACTIVE CASES <p>686395</p></div>
             <div className="recovered">RECOVERED <p>2096664</p></div>
             <div className="deaths">DEATHS <p>53866</p></div>
+           <CustomButton  buttonClass="know-more" buttonText="Know More" />
         </div>
     )
 }

@@ -2,7 +2,8 @@ import React from 'react';
 
 import './Emergency.css';
 import SubHeader from '../Components/Partials/SubHeader/SubHeader';
-import CovidOverview from '../Components/CovidBar/CovidOverview';
+
+import CovidOverview from '../Components/CovidOverview/CovidOverview';
 
 export default () => {
     return (
