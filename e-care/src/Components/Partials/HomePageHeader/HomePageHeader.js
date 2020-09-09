@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import "./HomePageHeader.css";
 
 class HomePageHeader extends Component {
@@ -36,7 +37,9 @@ class HomePageHeader extends Component {
           <div className="hero-mid-text">
             <h1>Book an appointment</h1>
             <p>Reach out to our doctors or build your appointment right away</p>
-            <button className="btn btn-danger px-3">Book now</button>
+            <Link to='/booking'>
+               <button className="btn btn-danger px-3">Book now</button>
+            </Link>
           </div>
         </div>
       </header>
