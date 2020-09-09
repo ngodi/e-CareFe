@@ -5,6 +5,7 @@ import SubHeader from '../Components/Partials/SubHeader/SubHeader';
 
 import CovidOverview from '../Components/CovidOverview/CovidOverview';
 import NavigationPanel from '../Components/Partials/NavigationPanel/NavigationPanel';
+import AvailableDoctors from '../AvailableDoctors/AvailableDoctors';
 
 export default () => {
     return (
@@ -12,6 +13,7 @@ export default () => {
              <SubHeader image = "./Images/emergency.png" heading = "EMERGENCY!" description = "Call Us: 0011/0012" />
              <CovidOverview />
              <NavigationPanel />
+             <AvailableDoctors />
         </div>
     )
 }
