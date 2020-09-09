@@ -8,6 +8,7 @@ import NavigationPanel from '../../Components/Partials/NavigationPanel/Navigatio
 import AvailableDoctors from '../../Components/AvailableDoctors/AvailableDoctors';
 import DoctorsTips from '../../Articles/Components/DoctorsTips/DoctorsTips';
 import ContactSection from '../../Components/ContactSection/ContactSection';
+import QuickLinks from '../../Components/QuickLinks/QuickLinks';
 
 export default () => {
     return (
@@ -17,6 +18,7 @@ export default () => {
              <NavigationPanel />
              <AvailableDoctors />
              <ContactSection />
+             <QuickLinks />
              <DoctorsTips heading="Emergency Health Tips"/>
         </div>
     )
