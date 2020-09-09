@@ -2,6 +2,8 @@ import React from 'react';
 
 import './SubHeader.css';
 
+import poweredby from "./Images/poweredby.png";
+
 export default ({ image, heading, description}) => {
     return (
         <section style={{backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
@@ -12,6 +14,7 @@ export default ({ image, heading, description}) => {
         <p>
             { description }
         </p>
+        <img src={poweredby} className="poweredby-logo" alt="Powered By E-care" />
        </section>
     )
 }
