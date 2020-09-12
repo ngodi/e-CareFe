@@ -62,7 +62,7 @@ export default class Sidebav extends Component {
 
                 <ul class="nav flex-column">
                   <li class="nav-item">
-                    <NavLink class="nav-link" exact activeClassName="active" to="/patientdashboard">
+                    <NavLink class="nav-link" activeClassName="active" to="/dashboard/patient">
                       <svg
                         width="25"
                         height="24"
@@ -91,7 +91,7 @@ export default class Sidebav extends Component {
                     </NavLink >
                   </li>
                   <li class="nav-item">
-                    <NavLink className="nav-link" activeClassName="active" to="/appointments">
+                    <NavLink className="nav-link" activeClassName="active" to="/dashboard/patient/appointments">
                       <svg
                         width="25"
                         height="24"
@@ -378,7 +378,7 @@ export default class Sidebav extends Component {
 
                 <ul class="nav flex-column mt-4">
                   <li class="nav-item">
-                    <NavLink className="nav-link" to="/settings">
+                    <NavLink className="nav-link" activeClassName="active" to="/dashboard/patient/profile">
                       <svg
                         width="25"
                         height="24"
