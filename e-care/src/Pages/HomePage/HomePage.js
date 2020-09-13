@@ -23,7 +23,9 @@ import man from '../../Assets/homepage/Images/man.png';
 
 
 // IMPORTING HEADER
-import HomePageHeader from "../../Components/Partials/HomePageHeader/HomePageHeader";
+import SubHeader from '../../Components/Partials/SubHeader/SubHeader'
+import PublicNav from '../../Components/Partials/PublicNav/PublicNav';
+import CovidOverview from '../../Components/Partials/CovidOverview/CovidOverview';
 
 
 $(document).ready(function () {
@@ -91,8 +93,11 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
-                <HomePageHeader />
-                <div className="container-fluid py-5">
+                <PublicNav />
+                <SubHeader page = 'home' image = "./Images/hero.png" heading ="Book an Appointment " description="React out to our Doctors or build your appointment right away"/>
+                <CovidOverview />
+               
+               {/*  <div className="container-fluid py-5">
                     <img src={bg} className='img-fluid mt-5 mb-5 container-fluid' alt="bg" />
                     <header className='pb-4'>
                         <h3 className="text-center carouselh3 text-danger">Center of Excellence</h3>
@@ -345,7 +350,7 @@ export default class HomePage extends Component {
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         )
     }
