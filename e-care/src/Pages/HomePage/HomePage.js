@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Route } from 'react-router-dom';
 import * as $ from "jquery";
 
 import './homepage.css';
@@ -23,13 +24,11 @@ import Registration from '../../Components/Registration/Registration';
 
 import slider from '../../Functions/slider';
 import ArticlesPreview from '../../Components/ArticlesPreview/ArticlesPreview';
-import Articles from '../../Components/Articles/Articles';
 
 export default class HomePage extends Component {
     render() {
         return (
             <div>
-                <PublicNav />
                 <SubHeader page = 'home' image = "./Images/hero.png" heading ="Book an Appointment " description="React out to our Doctors or build your appointment right away"/>
                 <CovidOverview />
                 <Domains />
@@ -37,7 +36,6 @@ export default class HomePage extends Component {
                 <StaffRecord />
                 <Registration />
                 <ArticlesPreview />
-                
             </div>
         )
     }

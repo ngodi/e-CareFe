@@ -1,5 +1,5 @@
 import React from "react";
-import { Route } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 import * as $ from "jquery";
 import "slick-carousel";
 
@@ -12,13 +12,15 @@ import "../node_modules/slick-carousel/slick/slick.css";
 import HomePage from "./Pages/HomePage/HomePage";
 import Booking from "./Components/Booking/Booking";
 import Footer from './Components/Partials/Footer/Footer';
+import PublicNav from "./Components/Partials/PublicNav/PublicNav";
 
 function App() {
   return (
     <div className="App">
-       <Route to='/' component={ HomePage } />
-       <Route to='/booking' component={ Booking } />
-       <Footer />
+      <PublicNav />
+      <Route path ='/' component={ HomePage } />
+      <Route path ='/booking' component={ Booking } />
+      <Footer />
     </div>
   );
 }

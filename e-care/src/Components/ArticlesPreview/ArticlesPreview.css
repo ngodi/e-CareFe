@@ -15,8 +15,11 @@
 .articles-preview-heading{
     text-align: center;
     color: red;
+    margin-top: 100px;
 }
 
 .articles-preview-desc{
     text-align: center;
+    margin-bottom: 100px;
 }
+
