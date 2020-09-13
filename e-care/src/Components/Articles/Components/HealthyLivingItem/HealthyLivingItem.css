@@ -1,0 +1,14 @@
+.healthy-living-item{
+   width: 350px;
+   min-width: 250px ;
+   position: relative;
+}
+.card-body{
+   position: relative;
+}
+.continue-reading{
+   position: absolute;
+   color: #007bff !important;
+   right: 10px;
+   
+}

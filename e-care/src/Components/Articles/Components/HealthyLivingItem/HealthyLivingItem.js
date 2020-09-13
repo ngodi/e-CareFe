@@ -16,11 +16,11 @@ export default ({image, title, date, comments, description}) => {
                 <p className="card-text mt-3">
                     {`${description}...`}
                 </p>
-                <p className="card-text text-right">
+                <span className="continue-reading">
                     <a href="#">
                         Continue reading
                     </a>
-                </p>
+                </span>
             </div>
     </div>
     )

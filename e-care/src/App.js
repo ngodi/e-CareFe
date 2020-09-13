@@ -10,12 +10,14 @@ import "./App.css";
 import "../node_modules/slick-carousel/slick/slick.css";
 
 import HomePage from "./Pages/HomePage/HomePage";
+import Booking from "./Components/Booking/Booking";
 import Footer from './Components/Partials/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
        <Route to='/' component={ HomePage } />
+       <Route to='/booking' component={ Booking } />
        <Footer />
     </div>
   );
