@@ -1,0 +1,25 @@
+
+.healthy-living-preview{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 25%;
+    margin-top: 50px;
+}
+
+.healthy-living-preview div{
+    flex: 0 0 40%; 
+    margin: 5px;
+}
+
+.articles-preview-heading{
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+
+.articles-preview-desc{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
