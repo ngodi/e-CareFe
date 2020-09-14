@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Route, Switch } from 'react-router-dom';
 import * as $ from "jquery";
@@ -13,16 +14,20 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Booking from "./Components/Booking/Booking";
 import Footer from './Components/Partials/Footer/Footer';
 import PublicNav from "./Components/Partials/PublicNav/PublicNav";
+import Emergency from "./pages/Emergency/Emergency";
+
 
 function App() {
   return (
     <div className="App">
       <PublicNav />
-      <Route path ='/' component={ HomePage } />
+      <Route eaxt path ='/' component={ HomePage } />
       <Route path ='/booking' component={ Booking } />
+      <Route path ='/emergency' component={ Emergency } />
       <Footer />
     </div>
   );
 }
 
 export default App;
+
