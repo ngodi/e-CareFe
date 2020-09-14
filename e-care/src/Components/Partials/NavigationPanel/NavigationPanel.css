@@ -1,0 +1,18 @@
+.navigation-panel{
+  height: fit-content;
+  background: #007D85;
+  font-size: 24px;
+  color: white;
+}
+
+.navigation-panel a{
+    text-decoration: none;
+}
+
+.navigation-panel ul li{
+ padding: 0 4vw;
+}
+
+.navigation-panel a:hover{
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,44 @@
+.emergency-number{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    border: 1px solid #007D85;
+    box-sizing: border-box;
+    padding: 50px 100px;
+}
+
+.emergency-number img{
+    margin: 50px;
+    -webkit-box-shadow: 0 0 20px gray;
+        box-shadow: 0 0 20px gray;
+}
+
+.ambulance-contact{
+  text-align: center;
+  width: 300px;
+}
+
+.ambulance-contact p{
+  text-align: left;
+  color: #007D85;
+  font-size: 20px;
+}
+.emergency-button{
+    background: red;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.head-text{
+    color: red;
+    font-size: 18px;
+}
+
+.fa-bars{
+  color: white;
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
