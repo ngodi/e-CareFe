@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, useLocation } from 'react-router-dom';
 import * as $ from "jquery";
 import "slick-carousel";
 
@@ -42,15 +42,13 @@ import PatientDashboard from "./Components/dashboard/Layout.js/PatientDashboard"
 function App() {
   return (
     <div className="App">
-      <NavBav />
-      <Signin />
-
       <PublicNav />
       <Route exact path ='/' component={ HomePage } />
       <Route path ='/booking' component={ Booking } />
       <Route path ='/emergency' component={ Emergency } />
       <Route path ='/articles' component={ Articles} />
       <Route path = '/dashboard/patient' component={ PatientDashboard} />
+      <Signin />
       <Footer />
     </div>
   );

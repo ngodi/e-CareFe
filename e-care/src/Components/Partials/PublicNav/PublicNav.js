@@ -9,6 +9,7 @@ import Logo from "../../../Images/logo.png";
 
 import { Link } from 'react-router-dom';
 
+
 export default class PublicNav extends Component {
   render() {
     return (
@@ -47,7 +48,7 @@ export default class PublicNav extends Component {
           </Link>
           <ul className="navbar-nav mt-2 mt-lg-0 ">
             <li className="nav-item d-inline-block mx-auto d-lg-inline">
-              <Link to = '/dashboard/patient'
+              <Link to = '/signin'
                 className="btn btn-outline-success px-3"
                 aria-disabled="true"
               >
