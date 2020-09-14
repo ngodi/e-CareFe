@@ -1,9 +1,9 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './SubHeader.css';
 
 
-export default ({ image, heading, description}) => {
+export default ({ image, heading, description, page }) => {
     return (
         <section style={{backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
         url(${image})`}} className="the-height text-white mt-3 d-flex flex-column justify-content-center align-items-center">
@@ -14,6 +14,15 @@ export default ({ image, heading, description}) => {
                 <span>About Us</span>
                 <span>Contact Us</span>
             </div>
+           {
+             page === 'home'?  
+             <div className="hero-mid-text">
+             <Link to='/booking'>
+             <button className="btn btn-danger px-3">Book now</button>
+             </Link>
+            </div>:
+            ""
+           }
             <h1>
                 { heading }
             </h1>

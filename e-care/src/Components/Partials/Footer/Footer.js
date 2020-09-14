@@ -1,6 +1,5 @@
 import React from 'react'
 
-import '../../../Page/HomePage/homepage.css';
 
 import logo_facebook from "../../../Assets/homepage/Images/icons8_facebook.png";
 import logo_instagram from "../../../Assets/homepage/Images/icons8_instagram.png";
