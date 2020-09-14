@@ -48,12 +48,9 @@ export default class PublicNav extends Component {
           </Link>
           <ul className="navbar-nav mt-2 mt-lg-0 ">
             <li className="nav-item d-inline-block mx-auto d-lg-inline">
-              <Link to = '/signin'
-                className="btn btn-outline-success px-3"
-                aria-disabled="true"
-              >
-                Login
-              </Link>
+            <button type="button" className="btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">
+                    Login
+                </button>
             </li>
             <li
               className="mx-3 d-none d-lg-block"

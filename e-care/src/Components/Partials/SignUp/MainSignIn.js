@@ -17,10 +17,7 @@ export class SignInModal extends Component {
     render() {
         return (
             <div>
-                <button type="button" className="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                    Sign In
-                </button>
-                <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                 <div className="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                     <div className="modal-dialog modal-dialog-centered modal-lg" role="document">
                         <div className="modal-content">
                             <div className="modal-body">
