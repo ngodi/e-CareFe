@@ -3,8 +3,9 @@
 }
 
 .search-field {
-    border: none;
-    width: 373px !important;
+    border: 2px solid #007D85;
+    border-radius: 5px !important;
+    width: 30vw !important;
 }
 
 .search-field::placeholder {
@@ -31,4 +32,12 @@
     border: 1px solid #007D85;
     color: #007D85;
     background-color: white;
+}
+.navbar{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+.btn-login{
+    margin-left:5vw;
 }

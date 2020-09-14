@@ -9,6 +9,7 @@ import Logo from "../../../Images/logo.png";
 
 import { Link } from 'react-router-dom';
 
+import './publicNav.css';
 
 export default class PublicNav extends Component {
   render() {
@@ -36,7 +37,7 @@ export default class PublicNav extends Component {
         <div className="collapse navbar-collapse" id="navbarToggler">
           <form className="my-2 my-lg-0">
             <input
-              className="form-control mr-sm-2"
+              className="form-control mr-sm-2 search-field"
               type="search"
               placeholder="Search for hospital"
             />
@@ -48,12 +49,9 @@ export default class PublicNav extends Component {
           </Link>
           <ul className="navbar-nav mt-2 mt-lg-0 ">
             <li className="nav-item d-inline-block mx-auto d-lg-inline">
-              <Link to = '/signin'
-                className="btn btn-outline-success px-3"
-                aria-disabled="true"
-              >
-                Login
-              </Link>
+            <button type="button" className="btn-login btn btn-outline-success" data-toggle="modal" data-target="#exampleModalCenter">
+                    Login
+                </button>
             </li>
             <li
               className="mx-3 d-none d-lg-block"
