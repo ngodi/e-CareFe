@@ -2,6 +2,7 @@
    width: 350px;
    min-width: 250px ;
    position: relative;
+   padding-bottom: 30px;
 }
 .card-body{
    position: relative;

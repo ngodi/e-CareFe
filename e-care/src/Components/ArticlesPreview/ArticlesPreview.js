@@ -1,7 +1,7 @@
 import React from 'react';
-import { healthTipsData, doctorsTips } from '../../Components/Articles/Data/HealthTipsData';
+import { healthTipsData, doctorsTips } from '../../Pages/Articles/Data/HealthTipsData';
 
-import HealthyLivingItem from '../../Components/Articles/Components/HealthyLivingItem/HealthyLivingItem';
+import HealthyLivingItem from '../../Pages/Articles/Components/HealthyLivingItem/HealthyLivingItem';
 import './ArticlesPreview.css';
 
 export default () => {

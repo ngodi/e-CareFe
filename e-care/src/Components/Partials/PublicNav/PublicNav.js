@@ -7,18 +7,20 @@
 import React, { Component } from "react";
 import Logo from "../../../Images/logo.png";
 
+import { Link } from 'react-router-dom';
+
 export default class PublicNav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg navbar-light bg-white">
-        <a className="navbar-brand" href="#">
+        <Link to = '/' className="navbar-brand" href="#">
           <img
             className="img-fluid"
             src={Logo}
             alt="e-care brand logo"
             loading="lazy"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -38,18 +40,19 @@ export default class PublicNav extends Component {
               placeholder="Search for hospital"
             />
           </form>
+          <Link to = '/emergency'>
           <button className="btn btn-danger ml-lg-3 mr-auto px-3">
             Emergency call
           </button>
+          </Link>
           <ul className="navbar-nav mt-2 mt-lg-0 ">
             <li className="nav-item d-inline-block mx-auto d-lg-inline">
-              <a
+              <Link to = '/dashboard/patient'
                 className="btn btn-outline-success px-3"
-                href="#"
                 aria-disabled="true"
               >
                 Login
-              </a>
+              </Link>
             </li>
             <li
               className="mx-3 d-none d-lg-block"
@@ -58,9 +61,9 @@ export default class PublicNav extends Component {
               }}
             ></li>
             <li className="nav-item d-inline-block mx-auto d-lg-inline mt-3 mt-lg-0 ">
-              <a className="btn btn-success px-3" href="#" aria-disabled="true">
+              <Link to = '/dashboard/patient' className="btn btn-success px-3" href="#" aria-disabled="true">
                 Register
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

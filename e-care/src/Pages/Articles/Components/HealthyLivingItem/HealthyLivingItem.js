@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
 import './HealthyLivingItem.css';
 
 export default ({image, title, date, comments, description}) => {
@@ -16,11 +16,11 @@ export default ({image, title, date, comments, description}) => {
                 <p className="card-text mt-3">
                     {`${description}...`}
                 </p>
-                <p className="card-text text-right">
-                    <a href="#">
+                
+                    <Link to = '/articles' className="continue-reading">
                         Continue reading
-                    </a>
-                </p>
+                    </Link>
+                
             </div>
     </div>
     )

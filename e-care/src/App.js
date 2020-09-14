@@ -14,16 +14,20 @@ import HomePage from "./Pages/HomePage/HomePage";
 import Booking from "./Components/Booking/Booking";
 import Footer from './Components/Partials/Footer/Footer';
 import PublicNav from "./Components/Partials/PublicNav/PublicNav";
-import Emergency from "./pages/Emergency/Emergency";
+import Emergency from "./Pages/Emergency/Emergency";
+import Articles from "./Pages/Articles/Articles";
+import PatientDashboard from "./Components/dashboard/Layout.js/PatientDashboard";
 
 
 function App() {
   return (
     <div className="App">
       <PublicNav />
-      <Route eaxt path ='/' component={ HomePage } />
+      <Route exact path ='/' component={ HomePage } />
       <Route path ='/booking' component={ Booking } />
       <Route path ='/emergency' component={ Emergency } />
+      <Route path ='/articles' component={ Articles} />
+      <Route path = '/dashboard/patient' component={ PatientDashboard} />
       <Footer />
     </div>
   );

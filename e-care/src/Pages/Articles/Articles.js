@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Articles.css';
 
-import SubHeader from '../Components/Partials/SubHeader/SubHeader';
+import SubHeader from '../../Components/Partials/SubHeader/SubHeader';
 import TopListed from './Components/TopListed/TopListed';
 import HealthyLivingList from './Components/HealthyLivingList/HealthyLivingList';
 import HealthTipsVideos from './Components/HealthTipsVideos/HealthTipsVideos';
