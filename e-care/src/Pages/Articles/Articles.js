@@ -7,10 +7,12 @@ import TopListed from './Components/TopListed/TopListed';
 import HealthyLivingList from './Components/HealthyLivingList/HealthyLivingList';
 import HealthTipsVideos from './Components/HealthTipsVideos/HealthTipsVideos';
 import DoctorsTips from './Components/DoctorsTips/DoctorsTips';
+import PublicNav from '../../Components/Partials/PublicNav/PublicNav';
 
 export default () => {
     return (
       <div className="articles">
+        <PublicNav/>
           <SubHeader image = "./Images/hero-image.png" heading = "Articles for you" description = "Get Healthy Tips from Doctors and Nurses to get a healthy lifestyle" />
           <TopListed />
           <HealthyLivingList />

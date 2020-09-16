@@ -114,7 +114,6 @@ export default class PatientDashboard extends Component {
     return (
       <div class={containerClass} id="patient-dashboard">
         <Header headerClass={headerClass} toggleSideBar={this.toggleSideBar} />
-
         <Sidebar
           showSidebar={this.state.showSidebar}
           mobileView={this.state.mobileView}

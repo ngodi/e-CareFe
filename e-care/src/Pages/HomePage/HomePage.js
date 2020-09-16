@@ -29,6 +29,7 @@ export default class HomePage extends Component {
     render() {
         return (
             <div>
+                <PublicNav/>
                 <SubHeader page = 'home' image = "./Images/hero.png" heading ="Book an Appointment " description="React out to our Doctors or build your appointment right away"/>
                 <CovidOverview />
                 <Domains />

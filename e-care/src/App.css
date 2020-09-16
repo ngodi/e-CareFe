@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Rubik";
+  src: local("Rubik"),
+    url(./Assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto"),
+    url(./Assets/fonts/Roboto-Regular.ttf) format("truetype");
+}
+
 *{
   margin: 0;
   padding: 0;

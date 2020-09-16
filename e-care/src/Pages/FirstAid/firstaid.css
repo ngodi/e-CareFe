@@ -1,0 +1,179 @@
+#first-aid {
+    background: #fff;
+  }
+  
+  #first-aid .row {
+    margin: 0 !important;
+  }
+  
+  #first-aid .banner {
+    background-image: url("../../Images/ambulance.jpg");
+    width: 100% !important;
+    height: 50vh !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  #first-aid #section1,
+  #first-aid #section2,
+  #first-aid #section3,
+  #first-aid #section4,
+  #first-aid #section5 {
+    padding: 60px 100px 30px 100px;
+  }
+  
+  #first-aid #section1 h4,
+  #first-aid #section2 h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    letter-spacing: 0.01em;
+    color: #fb5b45;
+  }
+  
+  #first-aid #section1 p,
+  #first-aid #section2 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    letter-spacing: 0.01em;
+  
+    color: #007d85;
+  }
+  
+  #first-aid #iframe-container iframe {
+    margin-left: 90px !important;
+  }
+  
+  #first-aid #section3 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration-line: underline;
+    color: #1742af;
+    margin-bottom: 8px !important;
+  }
+  
+  #first-aid #section3 h4 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    margin-left: 60px;
+    color: #fb5b45;
+  }
+  
+  #first-aid #section3 ul {
+    list-style: none;
+    margin-left: 60px;
+    margin-bottom: 140px;
+  }
+  
+  #first-aid #section3 ul li {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #007d85;
+    margin-bottom: 10px !important;
+  }
+  
+  #first-aid #section3 ul li:before {
+    content: "\2022";
+    color: #007d85;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  #first-aid #section3 #sec-2 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    color: #fc3b3b;
+    font-size: 13px;
+  }
+  
+  #first-aid #section4 h5 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+  
+    color: #fb5b45;
+  }
+  
+  #first-aid #section4 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+  
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  #first-aid #section4 h6,
+  #first-aid #section5 h6 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+  
+    color: #007d85;
+  }
+  
+  #first-aid #section5 p {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-decoration-line: underline;
+    margin-bottom: 8px !important;
+    color: #1742af;
+  }
+  
+  @media (max-width: 768px) {
+    .main {
+      padding-left: 16px !important;
+      padding-right: 16px !important;
+      padding-top: 25px !important;
+    }
+    #first-aid #section1,
+    #first-aid #section2,
+    #first-aid #section3,
+    #first-aid #section4,
+    #first-aid #section5 {
+      padding: 60px 30px 30px 30px !important;
+    }
+  
+    #header #mid-sec {
+      display: none !important;
+    }
+  
+    .signup {
+      margin-right: 20px !important;
+    }
+  
+    #first-aid #section2 .col-md-6,  #first-aid #section3 .col-md-6 {
+      padding: 0 !important;
+    }
+    #first-aid #iframe-container iframe {
+      margin-left: 30px !important;
+      margin-right: 30px !important;
+    }
+    #first-aid #section3 h4 {
+      margin-left: 0px;
+    }
+    #first-aid #section3 ul {
+      list-style: none;
+      margin-left: 25px;
+      margin-bottom: 50px;
+  }
+  }
+  
