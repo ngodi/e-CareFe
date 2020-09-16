@@ -1,20 +1,61 @@
+
+.covid-live-heading{
+    color: red;
+    padding: 50px;
+    font-size: 25px;
+}
+.covid-live-heading span{
+    margin-right: 10px;
+}
 .covid-live{
-    height: 200px;
+    width: 85vw;
+    margin: 20px auto 100px auto;
 }
 
 .corona-news{
     position: relative;
     display: flex;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    border: 1px solid  #007D85;
+    height: 200px;
 }
 .country-info{
-    position: absolute;
-    right: 10px;
+    text-align: center;
+    color: red;
 }
-
+.news-content{
+    background-color:  #007D85;
+    padding: 5px  20px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
 .country-picker{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+.country-picker select{
+    background-color:  #007D85;
+    padding: 5px;
+    color: white;
 }
 .globe-icon{
     font-size: 50px;
+    color:  #007D85;
 }
+
+.google-map{
+    width: 85vw;
+    margin: 100px auto;
+}
+@media only screen and (max-width: 600px) {
+    .corona-news {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+  }
+    

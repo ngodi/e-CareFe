@@ -19,7 +19,7 @@ export default () => {
                     </select>
                 </div>
                 <div className="country-info">
-                    <p> Corona news for you</p>
+                    <span> Corona News For You</span>
                     <div className="news-content">
                         <p>Stay Alert! Always wear Mask and Use Sanitizers</p>
                         <div className="covid-record">
@@ -27,6 +27,9 @@ export default () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="google-map">
+                <img src='./Images/googlemap.png' alt="google maps placeholder" width="100%" />
             </div>
         </div>
     )
