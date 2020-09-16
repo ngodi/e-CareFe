@@ -1,0 +1,11 @@
+.main-nav{
+    position: absolute;
+    top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+ }
+ 
+ .main-nav span{
+    margin: 0 3vw;
+ }
