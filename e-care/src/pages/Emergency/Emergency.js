@@ -15,7 +15,7 @@ export default () => {
     return (
         <div className="emergency">
              <MainBanner image = "./Images/emergency.png" heading = "EMERGENCY!" description = "Call Us: 0011/0012" />
-             <CovidOverview />
+             <CovidOverview image="./Images/corona-logo.png" country="INDIA" more="Know More" />
              <SubNav />
              <AvailableDoctors />
              <ContactSection />

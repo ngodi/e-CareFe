@@ -17,7 +17,7 @@ export default class HomePage extends Component {
         return (
             <div>
                 <MainBanner page = 'home' image = "./Images/hero.png" heading ="Book an Appointment " description="React out to our Doctors or build your appointment right away"/>
-                <CovidOverview />
+                <CovidOverview image="./Images/corona-logo.png" country="INDIA" more="Know More" />
                 <Domains />
                 <EcareNews />
                 <StaffRecord />

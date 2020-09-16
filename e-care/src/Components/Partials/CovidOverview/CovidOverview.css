@@ -11,6 +11,18 @@
     border-radius: 10px;
     position: relative;
 }
+.covid-record{
+  width: 50vw;
+  margin: 25px auto;
+  background: #000;
+  color:#fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  border-radius: 10px;
+}
 .corona-logo{
   position: relative;
 }

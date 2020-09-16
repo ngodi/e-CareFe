@@ -1,0 +1,20 @@
+.covid-live{
+    height: 200px;
+}
+
+.corona-news{
+    position: relative;
+    display: flex;
+}
+.country-info{
+    position: absolute;
+    right: 10px;
+}
+
+.country-picker{
+    display: flex;
+    flex-direction: column;
+}
+.globe-icon{
+    font-size: 50px;
+}
