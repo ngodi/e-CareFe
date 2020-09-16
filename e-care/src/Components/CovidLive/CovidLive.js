@@ -31,6 +31,15 @@ export default () => {
             <div className="google-map">
                 <img src='./Images/googlemap.png' alt="google maps placeholder" width="100%" />
             </div>
+            <div className="covid-alert">
+                Alert! 20 People Suspectd Positive
+            </div>
+            <div className="filter-covid">
+                <button>500m</button>
+                <button>1 Km </button>
+                <button>5 Km </button>
+                <button> 10 Km </button>
+>            </div>
         </div>
     )
 }
