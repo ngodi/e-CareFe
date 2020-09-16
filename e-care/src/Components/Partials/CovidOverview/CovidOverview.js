@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 import './CovidOverview.css';
 import CustomButton from '../CustomButton/CustomButton';
 
@@ -11,7 +13,9 @@ export default () => {
             <div className="active-cases">ACTIVE CASES <p>686395</p></div>
             <div className="recovered">RECOVERED <p>2096664</p></div>
             <div className="deaths">DEATHS <p>53866</p></div>
-           <CustomButton  buttonClass="know-more" buttonText="Know More" />
+            <Link to = "/covid">
+              <CustomButton  buttonClass="know-more" buttonText="Know More" />
+            </Link>
         </div>
     )
 }

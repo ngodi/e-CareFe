@@ -8,8 +8,12 @@ import './MainBanner.css';
 
 export default ({ image, heading, description, page }) => {
     return (
-        <section style={{backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
-        url(${image})`}} className="the-height text-white mt-3 d-flex flex-column justify-content-center align-items-center">
+        <section style={page == 'covid'?
+        {backgroundImage:`
+        url(${image})`}:
+        {backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
+        url(${image})`}
+    } className="the-height text-white mt-3 d-flex flex-column justify-content-center align-items-center">
           <MainNav />
            {
              page === 'home'?  
