@@ -1,5 +1,4 @@
 .navigation-panel{
-  height: fit-content;
   background: #007D85;
   font-size: 24px;
   color: white;
@@ -9,8 +8,8 @@
     text-decoration: none;
 }
 
-.navigation-panel ul li{
- padding: 0 4vw;
+.navigation-panel .nav-item{
+width: 20%;
 }
 
 .navigation-panel a:hover{

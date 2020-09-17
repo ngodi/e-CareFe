@@ -1,0 +1,23 @@
+.hospital-item{
+  width: 400px;
+  -webkit-box-shadow: 0 0 10px #E5E5E5;
+        box-shadow: 0 0 10px #E5E5E5;
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.hospital-header{
+  padding: 3px;
+  height: 100px;
+  width: 100%;
+}
+
+.hospital-location{
+  text-align: center;
+  padding: 20px;
+  color: #7e7b7bf5;
+}
+.hospital-title{
+  color: #007D85;
+  font-weight: bold;
+}

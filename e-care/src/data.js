@@ -35,4 +35,37 @@ export const doctorList = [
     sector: "Neurologist",
     hospital: " St. vancia Hospital"
     }
+];
+
+export const hospitalData = [
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  },
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  },
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  },
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  },
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  },
+  {
+    image :"./Images/hero.png",
+    hospital:"St. Joseph Memorial",
+    location:"13/A - Alvin street, Lagos, Nigeria"
+  }
 ]
