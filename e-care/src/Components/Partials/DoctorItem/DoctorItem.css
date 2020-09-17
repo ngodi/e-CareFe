@@ -1,0 +1,25 @@
+.doctor-item{
+    display: flex;
+    align-items: flex-start;
+    background: #FFFFFF;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: all 1s;
+}
+.doctor-item:hover{
+    transform: translateY(1px);
+}
+.doctor-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.doctor-name{
+    color: #007D85;
+    font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.main-heading{
+    text-align: center !important;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    text-transform: capitalize;
+    color: #FB5B45 !important;
+    margin: 50px auto !important;
+  }
