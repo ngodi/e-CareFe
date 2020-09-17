@@ -6,6 +6,9 @@ import SubNav from '../Partials/SubNav/SubNav';
 import MainHeading from '../Partials/MainHeading/MainHeading';
 
 import './DoctorList.css';
+import DoctorsTopChoices from '../DoctorsTopChoices/DoctorsTopChoices';
+import DoctorsIndemand from '../DoctorsIndemand/DoctorsIndemand';
+import DoctorsFreeTreatment from '../DoctorsFreeTreatment/DoctorsFreeTreatment';
 
 
 export default () => {
@@ -15,6 +18,11 @@ export default () => {
             <img className="our-process" src="./Images/our-process.png" alt="our process" width="100%" height="120px" />
             <SubNav />
             <MainHeading title="Top Choices" />
+            <DoctorsTopChoices />
+            <MainHeading title="In Demand" />
+            <DoctorsIndemand />
+            <MainHeading title="Treatment at FREE of Cost" />
+            <DoctorsFreeTreatment />
         </div>
     )
 }

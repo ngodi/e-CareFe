@@ -4,11 +4,11 @@ import DoctorItem from '../Partials/DoctorItem/DoctorItem';
 
 import { doctorList } from '../../data';
 
-import './DoctorsTopChoices.css';
+import './DoctorsFreeTreatment.css';
 
 export default () => {
     return (
-        <div className="doctors-top-choices">
+        <div className="doctors-free-treatment">
             {
                 doctorList.map((doctor, i) => {
                     return (<DoctorItem {...doctor } >
