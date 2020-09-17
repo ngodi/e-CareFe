@@ -11,29 +11,30 @@ import "./App.css";
 import "../node_modules/slick-carousel/slick/slick.css";
 
 import Signin from './Components/Partials/SignUp/MainSignIn'
-
+import MainHeader from './Components/Partials/MainHeader/MainHeader';
 import HomePage from "./Pages/HomePage/HomePage";
 import Booking from "./Components/Booking/Booking";
-import Footer from './Components/Partials/Footer/Footer';
+import MainFooter from './Components/Partials/MainFooter/MainFooter';
 
-import PublicNav from "./Components/Partials/PublicNav/PublicNav";
 import Emergency from "./Pages/Emergency/Emergency";
 import Articles from "./Pages/Articles/Articles";
 import PatientDashboard from "./Components/dashboard/Layout.js/PatientDashboard";
+import CovidTracker from "./Components/CovidTracker/CovidTracker";
 
 
 
 function App() {
   return (
     <div className="App">
-      <PublicNav />
+      <MainHeader />
       <Route exact path ='/' component={ HomePage } />
       <Route path ='/booking' component={ Booking } />
       <Route path ='/emergency' component={ Emergency } />
       <Route path ='/articles' component={ Articles} />
       <Route path = '/dashboard/patient' component={ PatientDashboard} />
+      <Route path = '/covid' component={ CovidTracker} />
       <Signin />
-      <Footer />
+      <MainFooter />
     </div>
   );
 }

@@ -1,15 +1,9 @@
-/*
-  PublicNav.js is the navbar for all public pages
-  Admin, Medical Personel and Patient will have their
-  own navs
-*/
-
 import React, { Component } from "react";
 import Logo from "../../../Images/logo.png";
 
 import { Link } from 'react-router-dom';
 
-import './publicNav.css';
+import './MainHeader.css';
 
 export default class PublicNav extends Component {
   render() {
