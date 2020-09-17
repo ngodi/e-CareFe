@@ -20,6 +20,7 @@ import Emergency from "./Pages/Emergency/Emergency";
 import Articles from "./Pages/Articles/Articles";
 import PatientDashboard from "./Components/dashboard/Layout.js/PatientDashboard";
 import CovidTracker from "./Components/CovidTracker/CovidTracker";
+import DoctorList from "./Components/DoctorList/DoctorList";
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Route path ='/articles' component={ Articles} />
       <Route path = '/dashboard/patient' component={ PatientDashboard} />
       <Route path = '/covid' component={ CovidTracker} />
+      <Route path = '/doctors' component={ DoctorList} />
       <Signin />
       <MainFooter />
     </div>
