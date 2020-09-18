@@ -1,0 +1,16 @@
+.intensive-units{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.non-intensive-units{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.unit-data{
+    text-align: center;
+    width: 200px;
+    margin: 100px;
+}
