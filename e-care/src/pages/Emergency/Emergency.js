@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from "react";
 import './Emergency.css';
 
 import CovidOverview from '../../Components/Partials/CovidOverview/CovidOverview';
