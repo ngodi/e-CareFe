@@ -22,6 +22,7 @@ import PatientDashboard from "./Components/dashboard/Layout.js/PatientDashboard"
 import CovidTracker from "./Components/CovidTracker/CovidTracker";
 import DoctorList from "./Components/DoctorList/DoctorList";
 import HospitalList from "./Components/HospitalList/HospitalList";
+import Units from './Components/Units/Units';
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Route path = '/covid' component={ CovidTracker} />
       <Route path = '/doctors' component={ DoctorList} />
       <Route path = '/hospitals' component={ HospitalList } />
+      <Route path = '/units' component = {Units} />
       <Signin />
       <MainFooter />
     </div>

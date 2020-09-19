@@ -1,0 +1,21 @@
+.unit-item{
+  position: relative;
+  margin: 50px;
+}
+
+.unit-photo{
+    width: 400px;
+    height: 200px;
+}
+
+.unit-name{
+  position: relative;
+  background: #002689;
+  text-align: center;
+  width: 350px;
+  padding: 10px;
+  color: #FFF;
+  bottom: 25px;
+  left: 20px;
+
+}
