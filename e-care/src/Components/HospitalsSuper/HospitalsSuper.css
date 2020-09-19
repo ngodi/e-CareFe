@@ -1,0 +1,5 @@
+.hospitals-super{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

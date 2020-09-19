@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './NavigationPanel.css';
+import './SubNav.css';
 
 export default () => {
   return(

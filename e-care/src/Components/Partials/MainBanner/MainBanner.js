@@ -1,19 +1,20 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SubHeader.css';
+
+import MainNav from '../MainNav/MainNav';
+
+import './MainBanner.css';
 
 
 export default ({ image, heading, description, page }) => {
     return (
-        <section style={{backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
-        url(${image})`}} className="the-height text-white mt-3 d-flex flex-column justify-content-center align-items-center">
-            <div className="sub-nav">
-                <span>Patient Care</span>
-                <span>Doctors</span>
-                <span>Hospitals</span>
-                <span>About Us</span>
-                <span>Contact Us</span>
-            </div>
+        <section style={page == 'covid'?
+        {backgroundImage:`
+        url(${image})`}:
+        {backgroundImage:`linear-gradient( rgba(0, 44, 156, 0.58), rgba(0, 44, 156, 0.58)), 
+        url(${image})`}
+    } className="the-height text-white mt-3 d-flex flex-column justify-content-center align-items-center">
+          <MainNav />
            {
              page === 'home'?  
              <div className="hero-mid-text">

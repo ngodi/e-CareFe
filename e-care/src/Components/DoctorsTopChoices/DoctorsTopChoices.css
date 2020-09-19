@@ -1,0 +1,11 @@
+.fee{
+    color: red;
+}
+
+.doctors-top-choices{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid #007D85;
+    padding-bottom: 20px;
+}
