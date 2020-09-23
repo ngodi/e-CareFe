@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './SubNav.css';
 
@@ -23,7 +24,7 @@ export default () => {
               <a className="nav-link" href="#">Emergency</a>
             </li>
            <li className="nav-item">
-             <a className="nav-link" href="#">Laboratory</a>
+             <Link className="nav-link" to="our-labs">Laboratory</Link>
            </li>
         </ul>
       </div>

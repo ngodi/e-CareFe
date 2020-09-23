@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import PublicNav from "../../Components/Partials/PublicNav/PublicNav";
+
 import './contactus.css'
 export default class ContactUs extends Component {
   render() {
     return (
       <div id="contactus">
-          <PublicNav/>
+      
         <div id="banner">
           <div className="banner-inner">
             <h4>E-CARE</h4>

@@ -12,7 +12,7 @@ import formback from "../../Images/form-back.png";
 import close from "../../Images/close.png";
 
 import "./Booking.css";
-import PublicNav from "../Partials/PublicNav/PublicNav";
+
 const timeslots = new Array(20).fill("10 A.M");
 class Booking extends Component {
   constructor(props) {
@@ -50,7 +50,6 @@ class Booking extends Component {
   render() {
     return (
       <>
-        <PublicNav />
         <div className="booking-container">
           <div
             className="booking"

@@ -28,6 +28,7 @@ import CovidTracker from "./Components/CovidTracker/CovidTracker";
 import DoctorList from "./Components/DoctorList/DoctorList";
 import HospitalList from "./Components/HospitalList/HospitalList";
 import Units from './Components/Units/Units';
+import Laboratories from './Components/Laboratories/Laboratories';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
       <Route exact path="/first-aid" component={FirstAid} />
       <Route path="/first-aid/:word" component={FirstAidDetailsPage} />
       <Route path = '/units' component = {Units} />
+      <Route path='/our-labs' component={Laboratories} />
       <Signin />
       <MainFooter />
     </div>

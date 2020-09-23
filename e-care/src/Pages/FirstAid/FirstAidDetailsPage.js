@@ -1,12 +1,11 @@
 import React, { Component } from "react";
-import PublicFooter from "../../Components/Partials/PublicFooter/PublicFooter";
-import PublicNav from "../../Components/Partials/PublicNav/PublicNav";
+
 import "./firstaid.css";
 export default class FirstAidDetailsPage extends Component {
   render() {
     return (
       <div id="first-aid">
-        <PublicNav />
+      
         <div className="banner"></div>
         <div className="" id="section4">
           <h5>ANAPHYLAXIS</h5>
@@ -70,7 +69,7 @@ export default class FirstAidDetailsPage extends Component {
             </div>
           </div>
         </div>
-        <PublicFooter/>
+ 
       </div>
     );
   }
