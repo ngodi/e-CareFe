@@ -1,0 +1,27 @@
+.first-aid-badge{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    background: #FC3B3B;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+    margin: 50px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 16px;
+    position: fixed;
+    top: 50%;
+    right: -50px;
+    height: 210px;
+    width: 50px;
+    
+}
+
+.aid-img{
+    position: absolute;
+    bottom: 30%;
+    left: -35px;
+    z-index: 10;
+    background: white;
+    border-radius: 50%;
+}

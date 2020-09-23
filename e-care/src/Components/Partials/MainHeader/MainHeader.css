@@ -33,11 +33,10 @@
     color: #007D85;
     background-color: white;
 }
-.navbar{
-    display: flex !important;
-    justify-content: space-between !important;
-}
 
 .btn-login{
     margin-left:5vw;
+}
+.emergency-btn{
+    width: 200px;
 }

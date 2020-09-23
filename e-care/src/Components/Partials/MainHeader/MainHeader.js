@@ -8,7 +8,7 @@ import './MainHeader.css';
 export default class PublicNav extends Component {
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-light bg-white">
+      <nav className="main-header navbar navbar-expand-lg navbar-light bg-white">
         <Link to = '/' className="navbar-brand" href="#">
           <img
             className="img-fluid"
@@ -37,8 +37,8 @@ export default class PublicNav extends Component {
             />
           </form>
           <Link to = '/emergency'>
-          <button className="btn btn-danger ml-lg-3 mr-auto px-3">
-            Emergency call
+          <button className="emergency-btn btn btn-danger ml-lg-3 mr-auto px-3">
+            Emergency call&nbsp;|&nbsp;0011
           </button>
           </Link>
           <ul className="navbar-nav mt-2 mt-lg-0 ">

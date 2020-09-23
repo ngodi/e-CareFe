@@ -7,7 +7,7 @@ export default () => {
         <div className="main-nav">
             <span>Patient Care</span>
             <span><Link to="/doctors">Doctors</Link></span>
-            <span>Hospitals</span>
+            <span><Link to="/hospitals">Hospitals</Link></span>
             <span>About Us</span>
             <span>Contact Us</span>
        </div>

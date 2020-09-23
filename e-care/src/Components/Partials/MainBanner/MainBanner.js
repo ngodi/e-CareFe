@@ -19,7 +19,7 @@ export default ({ image, heading, description, page }) => {
              page === 'home'?  
              <div className="hero-mid-text">
              <Link to='/booking'>
-             <button className="btn btn-danger px-3">Book now</button>
+             <button className="book-now btn btn-danger px-3">Book now</button>
              </Link>
             </div>:
             ""
