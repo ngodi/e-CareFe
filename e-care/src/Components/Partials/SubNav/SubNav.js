@@ -22,7 +22,7 @@ export default () => {
            <li className="nav-item">
               <a className="nav-link" href="#">Emergency</a>
             </li>
-           <li className="nav-item">
+           <li className="nav-item lab-nav">
              <a className="nav-link" href="#">Laboratory</a>
            </li>
         </ul>

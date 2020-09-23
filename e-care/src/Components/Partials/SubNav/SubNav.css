@@ -6,12 +6,21 @@
 
 .navigation-panel a{
     text-decoration: none;
+    margin: 0 4vw !important;
+    line-height: 16px;
+    height: 40px;
 }
 
 .navigation-panel .nav-item{
-width: 20%;
+text-align: center;
+border-right: 1px solid white;
+width:20vw;
 }
 
 .navigation-panel a:hover{
     border-bottom: 1px solid white;
+}
+
+.lab-nav{
+  border-right: none !important;
 }

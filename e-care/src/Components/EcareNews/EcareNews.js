@@ -6,6 +6,8 @@ import hero from '../../Assets/homepage/Images/hero.png';
 import smlogo from '../../Assets/homepage/Images/sm-logo.png';
 import star from '../../Assets/homepage/Images/Star.png';
 
+import StaffRecord from '../StaffRecord/StaffRecord';
+
 export default () => {
     return (
         <div style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${hero})`}} className="hero-image">
@@ -23,6 +25,9 @@ export default () => {
                     <img src={star} alt="star" className='img-fluid' />
                 </div>
             </div>
+        </div>
+        <div className="row">
+        <StaffRecord />
         </div>
     </div>
     )

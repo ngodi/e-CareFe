@@ -9,7 +9,7 @@ export default () => {
             <span><Link to="/doctors">Doctors</Link></span>
             <span><Link to="/hospitals">Hospitals</Link></span>
             <span>About Us</span>
-            <span>Contact Us</span>
+            <span><Link to = '/contactus'>Contact Us</Link></span>
        </div>
     )
 }

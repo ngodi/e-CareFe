@@ -6,7 +6,6 @@ import './homepage.css';
 import CovidOverview from '../../Components/Partials/CovidOverview/CovidOverview';
 import Domains from '../../Components/Domains/Domains';
 import EcareNews from '../../Components/EcareNews/EcareNews';
-import StaffRecord from '../../Components/StaffRecord/StaffRecord';
 import Registration from '../../Components/Registration/Registration';
 
 import ArticlesPreview from '../../Components/ArticlesPreview/ArticlesPreview';
@@ -20,7 +19,6 @@ export default class HomePage extends Component {
                 <CovidOverview image="./Images/corona-logo.png" country="INDIA" more="Know More" />
                 <Domains />
                 <EcareNews />
-                <StaffRecord />
                 <Registration />
                 <ArticlesPreview />
             </div>
