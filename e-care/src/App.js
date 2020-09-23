@@ -29,6 +29,7 @@ import DoctorList from "./Components/DoctorList/DoctorList";
 import HospitalList from "./Components/HospitalList/HospitalList";
 import Units from './Components/Units/Units';
 import FIrstAidBadge from "./Components/Partials/FIrstAidBadge/FIrstAidBadge";
+import Laboratories from './Components/Laboratories/Laboratories';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
       <Route path="/first-aid/:word" component={FirstAidDetailsPage} />
       <Route path = '/units' component = {Units} />
       <FIrstAidBadge />
+      <Route path='/our-labs' component={Laboratories} />
       <Signin />
       <MainFooter />
     </div>
