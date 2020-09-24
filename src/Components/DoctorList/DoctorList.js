@@ -1,6 +1,5 @@
 import React from 'react';
 
-import DoctorItem from '../Partials/DoctorItem/DoctorItem';
 import MainBanner from '../Partials/MainBanner/MainBanner';
 import SubNav from '../Partials/SubNav/SubNav';
 import MainHeading from '../Partials/MainHeading/MainHeading';
