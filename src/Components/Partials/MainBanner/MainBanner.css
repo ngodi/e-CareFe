@@ -1,0 +1,26 @@
+.the-height{
+   height: 700px;
+   background-size: cover;
+   background-position:top;
+   background-repeat: no-repeat;
+   width: 100% !important;
+   margin: 0 auto;
+   position: relative;
+}
+
+.poweredby-logo{
+position: absolute;
+bottom: 0; 
+right: 0;
+}
+
+.hero-mid-text{
+   text-align: center;
+}
+.book-now{
+   width: 249px;
+   font-size: 24px;
+   background: #1D3557;
+   border-radius: 5px;
+   border: none;
+}
