@@ -8,7 +8,7 @@ import './DoctorList.css';
 import DoctorsTopChoices from '../DoctorsTopChoices/DoctorsTopChoices';
 import DoctorsIndemand from '../DoctorsIndemand/DoctorsIndemand';
 import DoctorsFreeTreatment from '../DoctorsFreeTreatment/DoctorsFreeTreatment';
-
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader'
 
 export default () => {
     return (

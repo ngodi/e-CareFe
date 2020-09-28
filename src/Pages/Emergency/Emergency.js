@@ -11,9 +11,12 @@ import MainBanner from '../../Components/Partials/MainBanner/MainBanner';
 import SubNav from '../../Components/Partials/SubNav/SubNav';
 import MainHeading from '../../Components/Partials/MainHeading/MainHeading';
 
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader';
+
 export default () => {
     return (
         <div className="emergency">
+            <MainHeader/>
              <MainBanner image = "./Images/emergency.png" heading = "EMERGENCY!" description = "Call Us: 0011/0012" />
              <CovidOverview image="./Images/corona-logo.png" country="INDIA" more="Know More" />
              <SubNav />

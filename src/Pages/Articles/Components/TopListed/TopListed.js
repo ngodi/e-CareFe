@@ -4,7 +4,7 @@ import './TopListed.css';
 
 export default () => {
     return (
-        <section className="top-listed row">
+        <section className="top-listed">
         <h2 className="heading w-100 text-center text-secondary p-3 mt-5 mb-3">
             top listed articles
         </h2>

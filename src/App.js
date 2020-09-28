@@ -32,9 +32,9 @@ import FIrstAidBadge from "./Components/Partials/FIrstAidBadge/FIrstAidBadge";
 import Laboratories from './Components/Laboratories/Laboratories';
 
 function App() {
+  //      <MainHeader />
   return (
     <div className="App">
-      <MainHeader />
       <Route exact path ='/' component={ HomePage } />
       <Route path ='/booking' component={ Booking } />
       <Route path="/contactus" component={ContactUs} />

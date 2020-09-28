@@ -7,10 +7,12 @@ import HealthyLivingList from './Components/HealthyLivingList/HealthyLivingList'
 import HealthTipsVideos from './Components/HealthTipsVideos/HealthTipsVideos';
 import DoctorsTips from './Components/DoctorsTips/DoctorsTips';
 import MainBanner from '../../Components/Partials/MainBanner/MainBanner';
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader'
 
 export default () => {
     return (
       <div className="articles">
+          <MainHeader/>
           <MainBanner image = "./Images/hero-image.png" heading = "Articles for you" description = "Get Healthy Tips from Doctors and Nurses to get a healthy lifestyle" />
           <TopListed />
           <HealthyLivingList />
