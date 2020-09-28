@@ -10,7 +10,20 @@ import Img5 from '../../../Images/circle2.png'
 
 
 export class SignUp extends Component {
+state = {
+email : "",
+password: "",
+}
 
+handleChange = (e) => {
+    this.setState({
+       [e.target.name]: e.target.value
+    })
+}
+handleLogin = (e) => {
+    e.preventDefault();
+    alert(`user: ${this.state.email} \n pass: ${this.state.password}`)
+}
     render() {
         return (
             <div>
@@ -36,10 +49,10 @@ export class SignUp extends Component {
                                 </div>
                             </form>
                             <h6 className="division">or</h6>
-                            <form>
-                                <input type="text" placeholder="Enter Card No. or Email" className="form-control" />
-                                <input type="password" placeholder="Enter Password" className="form-control mt-2" />
-                                <button className="next-btn">
+                            <form >
+                                <input onChange={this.handleChange.bind(this) } name="email" type="text" placeholder="Enter Card No. or Email" className="form-control" />
+                                <input onChange={this.handleChange.bind(this) } name="password" type="password" placeholder="Enter Password" className="form-control mt-2" />
+                                <button className="next-btn" onClick={this.handleLogin.bind(this)}>
                                     Sign In
                                 </button>
                             </form>
