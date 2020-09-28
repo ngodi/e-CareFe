@@ -1,11 +1,12 @@
 import React, { Component } from "react";
-
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader'
 import './contactus.css'
+
 export default class ContactUs extends Component {
   render() {
     return (
       <div id="contactus">
-      
+         <MainHeader />
         <div id="banner">
           <div className="banner-inner">
             <h4>E-CARE</h4>

@@ -1,42 +1,88 @@
 .icon {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .search-field {
-    border: 2px solid #007D85;
-    border-radius: 5px !important;
-    width: 30vw !important;
+  border: 2px solid #007d85;
+  border-radius: 5px !important;
+  width: 30vw !important;
 }
 
 .search-field::placeholder {
-    padding-right: 80px;
-    color: #007D85;
+  padding-right: 80px;
+  color: #007d85;
 }
 
 .tag-btn {
-    border: 1px solid #007D85;
-    color: #007D85;
+  border: 1px solid #007d85;
+  color: #007d85;
 }
 
 .tag-btn:hover {
-    background-color: #007D85;
-    color: white;
+  background-color: #007d85;
+  color: white;
 }
 
 .tag-btn2 {
-    background-color: #007D85;
-    color: white;
+  background-color: #007d85;
+  color: white;
 }
 
 .tag-btn2:hover {
-    border: 1px solid #007D85;
-    color: #007D85;
-    background-color: white;
+  border: 1px solid #007d85;
+  color: #007d85;
+  background-color: white;
 }
 
-.btn-login{
-    margin-left:5vw;
+.btn-login {
+  margin-left: 5vw;
 }
-.emergency-btn{
-    width: 200px;
+.emergency-btn {
+  width: 200px;
+}
+
+.tag-btn {
+  border: 1px solid #007d85;
+  color: #007d85;
+}
+
+.tag-btn:hover {
+  background-color: #007d85;
+  color: white;
+}
+
+.navbar {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    width: 145px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+ .navbar-brand {
+    width: 145px !important;
+  }
+  .navbar-collapse form {
+    display: none !important;
+  }
+
+  .navbar-collapse ul li {
+    margin-left: 0 !important;
+  }
+  .navbar-collapse ul li .btn-login {
+    margin-left: 0 !important;
+  }
+
+  .navbar-collapse .emergency-btn button {
+    margin-bottom: 10px !important;
+  }
+
+  #landing-page .next {
+    font-size: 2.5rem !important;
+  }
 }
