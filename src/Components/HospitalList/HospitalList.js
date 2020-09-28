@@ -6,6 +6,7 @@ import SubNav from '../Partials/SubNav/SubNav';
 import HospitalsTop from '../HospitalsTop/HospitalsTop';
 import HospitalsNear from '../HospitalsNear/HospitalsNear';
 import HospitalsSuper from '../HospitalsSuper/HospitalsSuper';
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader'
 
 import './HospitalList.css';
 
@@ -13,6 +14,7 @@ import './HospitalList.css';
 export default () => {
     return (
         <div className="hospital-list">
+            <MainHeader/>
              <MainBanner image="./Images/hero.png" heading="Get Your Doctor" description="Reach Out To Our Doctors or Book Your Appointment Rightaway" page="hospitallist" />
              <img className="our-process" src="./Images/our-process.png" alt="our process" width="100%" height="120px" />
              <SubNav />

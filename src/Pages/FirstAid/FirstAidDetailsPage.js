@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-
+import MainHeader from '../../Components/Partials/MainHeader/MainHeader'
 import "./firstaid.css";
 export default class FirstAidDetailsPage extends Component {
   render() {
     return (
       <div id="first-aid">
-      
+        <MainHeader/>
         <div className="banner"></div>
         <div className="" id="section4">
           <h5>ANAPHYLAXIS</h5>

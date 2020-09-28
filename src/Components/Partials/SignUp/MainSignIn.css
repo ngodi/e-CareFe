@@ -100,19 +100,24 @@ h6 {
 .division::before,
 .division::after {
     content: '';
-    width: 35%;
+    width: 42%;
     height: 1px;
     background-color: #333;
     display: inline-block;
     margin-bottom: 3px;
-    
 }
+.division{
+    margin-right: 2em !important;
+    margin-left: 2em !important;
+}
+
 .division::before{
     margin-right: 0.5rem;
 }
 .division::after{
     margin-left: 0.5rem;
 }
+
 .radio-inputs {
     border-radius: 20px ;
     border: 1px solid #67738E;

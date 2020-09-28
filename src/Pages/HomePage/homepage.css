@@ -96,3 +96,28 @@
 .bg {
     background-color: #006F76;
 }
+
+.row{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #landing-page .sub-nav{
+        display: none !important;
+    }
+    #landing-page .main-nav{
+        display: none !important;
+    }
+    #landing-page .sections-carousel{
+        display: none !important;
+    }
+    #landing-page .articles-preview{
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    #landing-page .doctors-tips-preview img{
+        width: 100% !important;
+    }
+  }
